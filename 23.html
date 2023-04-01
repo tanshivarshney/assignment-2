@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>23 question</title>
+
+<body bgcolor="pink">
+    <h1><u><i>Stop watch:</i></u></h1>
+    <div id="clock">
+    <script type="text/javascript">
+        function clock()
+{
+    d= new Date();
+hh=d.getHours();
+mm=d.getMinutes();
+ss=d.getSeconds();
+cTime = hh+":"+mm+":"+ss;
+block=document.getElementById('clock');
+block.innerHTML=cTime;
+}
+setInterval(clock,1000)
+    </script></div>
+    
+</body>
+</head>
+</html>
